@@ -1,0 +1,197 @@
+.swipeableDrawer {
+  z-index: 3000;
+}
+.speedDial {
+  position: fixed;
+  top: 3vmax;
+  right: 3vmax;
+}
+.speedDialIcon {
+  width: 3.4vmax;
+  height: 3.4vmax;
+  border-radius: 100%;
+}
+
+.MuiButtonBase-root {
+  width: 3vmax !important;
+  height: 3vmax !important;
+}
+.Hamburger {
+  position: fixed;
+  top: 3vmax;
+  left: 3vmax;
+  z-index: 100;
+  border: none;
+  background-color: transparent;
+}
+.Hamburger > img {
+  width: 2vmax;
+  transition: all 0.5s;
+}
+.Hamburger > img:hover {
+  transform: scale(1.1);
+}
+.profileDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 0;
+}
+.profileDiv > a > img {
+  border-radius: 100%;
+  width: 3.5vmax;
+  height: 3.5vmax;
+}
+.profileDiv > a {
+  transition: all 0.5s;
+}
+.profileDiv > a:hover {
+  transform: scale(1.1);
+}
+.profileInfo > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.74);
+  font: 400 1rem cursive;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.profileInfo > a:hover {
+  color: rgba(2, 38, 71, 0.562);
+}
+.profileInfo > a > p {
+  color: rgba(0, 0, 0, 0.74);
+  font: 300 0.8rem "Roboto";
+  cursor: pointer;
+  margin-top: 4px;
+}
+.textLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 28vmax;
+}
+
+.textLinks > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.74);
+  font: 400 1.3vmax "Roboto";
+  transition: all 0.5s;
+}
+.textLinks > a:hover {
+  transform: scale(1.2);
+  color: tomato;
+}
+
+.iconLinks {
+  text-align: center;
+  padding: 4vmax 0;
+}
+.iconLinks > a > svg {
+  width: 4vmax !important;
+  transform: scale(1.5);
+  color: rgb(248, 84, 55);
+  transition: all 0.4s;
+}
+.iconLinks > a > svg:hover {
+  transform: scale(1.7);
+  color: rgb(201, 56, 30);
+}
+
+.newUserProfileDiv {
+  height: 6vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.newUserProfileDiv > p {
+  font: 400 1.2vmax "Roboto";
+  color: rgba(0, 0, 0, 0.74);
+}
+.newUserProfileDiv > a {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: tomato;
+  color: white;
+  font: 400 1vmax "Roboto";
+  cursor: pointer;
+  padding: 0.4vmax 0.9vmax;
+  text-decoration: none;
+}
+.newUserProfileDiv > a:hover {
+  background-color: rgb(221, 58, 29);
+}
+@media screen and (max-width: 600px) {
+  .speedDial {
+    top: 1.5vmax;
+    right: 1.5vmax;
+  }
+  .Hamburger {
+    top: 1.5vmax;
+    left: 1.5vmax;
+  }
+  .speedDialIcon {
+    width: 3vmax;
+    height: 3vmax;
+    border-radius: 100%;
+  }
+  .MuiButtonBase-root {
+    width: 4vmax !important;
+    height: 4vmax !important;
+  }
+  .Hamburger > img {
+    width: 1rem;
+  }
+  .profileDiv{
+    padding:3vmax 0;
+  }
+  .profileInfo > a {
+    font: 400 1.2rem "Roboto";
+  }
+  .profileInfo > a > p {
+    font: 300 1rem "Roboto";
+  }
+  .profileDiv > a > img {
+    border-radius: 100%;
+    width: 6vmax;
+    height: 6vmax;
+  }
+  .textLinks {
+    height: 46vmax;
+  }
+  .textLinks > a {
+    font: 400 2.5vmax "Roboto";
+  }
+  .iconLinks{
+    margin-top:5vmax;
+  }
+  .iconLinks > a > svg {
+    width: 9vmax !important;
+    transform: scale(1.8);
+  }
+  .MuiFab-root {
+    min-height: 0 !important;
+  }
+  .MuiSpeedDialAction-staticTooltip {
+    display: flex !important;
+    position: relative !important;
+    margin: 2vmax 0 !important;
+  }
+  .newUserProfileDiv {
+    height: 14vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .newUserProfileDiv > p {
+    font: 400 2.4vmax "Roboto";
+  }
+  .newUserProfileDiv > a {
+    font: 400 2vmax "Roboto";
+
+ 
+  }
+}

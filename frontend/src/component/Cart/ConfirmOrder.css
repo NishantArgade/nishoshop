@@ -1,0 +1,193 @@
+.confirmOrderPage {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+.confirmOrderPage > div:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+.confirmShippingArea {
+  padding: 5vmax !important;
+  padding-bottom: 0%;
+}
+.confirmShippingArea > p {
+  font: 400 1.8vmax "Roboto" !important;
+}
+.confirmShippingAreaBox,
+.confirmCartItemsContainer {
+  margin: 2vmax;
+}
+.confirmShippingAreaBox > div {
+  display: flex;
+  align-items: flex-start;
+  margin: 1vmax 0;
+}
+.confirmShippingAreaBox > div > p {
+  font: 400 1vmax "Roboto";
+  color: black;
+}
+.confirmShippingAreaBox > div > span {
+  font: 100 1vmax "Roboto";
+  margin: 0 1vmax;
+  color: #575757;
+}
+.confirmCartItemImgBlock {
+    background-size: cover;
+    width: 4vmax;
+  }
+  .confirmCartItemImgBlock > img {
+    width: 100%;
+  }
+.confirmCartItems > p {
+  font: 400 1.8vmax "Roboto" !important;
+}
+.confirmCartItems {
+  padding: 5vmax;
+  padding-top: 2vmax;
+}
+.confirmCartItemsContainer {
+  max-height: 20vmax;
+  overflow-y: auto;
+}
+.confirmCartItemsContainer > div {
+  font: 400 1vmax "Roboto";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vmax 0;
+}
+.confirmCartItemsContainer > div > img {
+  width: 4vmax;
+  max-height: 4vmax;
+}
+.confirmCartItemsContainer > div > a {
+  width: 40%;
+  color: #575757;
+  margin: 0 2 vmax;
+  text-decoration: none;
+}
+.confirmCartItemsContainer > div > span {
+  width: 40%;
+  font: 100 1vmax "Roboto";
+  color: #575757;
+}
+
+.orderSummary {
+  padding: 7vmax;
+}
+.orderSummary > p {
+  text-align: center;
+  font: 400 1.8vmax "Roboto";
+  border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+  box-sizing: border-box;
+  margin: auto;
+  width: 100%;
+  padding: 1vmax;
+}
+.orderSummary > div > div {
+  display: flex;
+  justify-content: space-between;
+  font: 300 1vmax "Roboto";
+  margin: 2vmax 0;
+}
+.orderSummary > div > div > span {
+  color: rgba(0, 0, 0, 0.692);
+}
+.orderSummaryTotal {
+  display: flex;
+  justify-content: space-between;
+  font: 300 1vmax "Roboto";
+  border-top: 1px solid rgba(0, 0, 0, 0.363);
+  padding: 2vmax 0;
+}
+.orderSummary > button {
+  background-color: tomato;
+  color: white;
+  width: 100%;
+  padding: 1vmax;
+  margin: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font: 400 1vmax "Roboto";
+  transition: 0.5s;
+}
+.orderSummary > button:hover {
+  background-color: rgb(192, 71, 50);
+}
+
+@media screen and (max-width: 600px) {
+  .confirmOrderPage {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+  .confirmOrderPage > div:last-child {
+    border-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+  }
+  .confirmShippingArea > p {
+    font: 400 6vw "Roboto";
+  }
+  .confirmShippingAreaBox > div {
+    display: flex;
+    margin: 6vw 0;
+  }
+  .confirmShippingAreaBox > div > p {
+    font: 400 4vw "Roboto";
+  }
+  .confirmShippingAreaBox > div > span {
+    font: 100 4vw "Roboto";
+  }
+  .confirmCartItems > p {
+    font: 100 6vw "Roboto";
+  }
+  .confirmCartItemsContainer {
+    max-height: 50vw;
+  }
+  .confirmCartItemsContainer > div {
+    margin: 4vw 0;
+    font: 400 4vw "Roboto";
+  }
+  .confirmCartItemImgBlock {
+    background-size: cover;
+    width: 4vmax;
+  }
+  .confirmCartItemImgBlock > img {
+    width: 100%;
+  }
+  .confirmCartItemsContainer > div > a {
+    margin: 0;
+    width: 30%;
+  }
+  .confirmCartItemsContainer > div > span {
+    font: 100 4vw "Roboto";
+  }
+  .orderSummary {
+    padding: 12vw;
+  }
+  .orderSummary > p {
+    padding: 4vw;
+    font: 400 6vw "Roboto";
+  }
+  .orderSummary > div > div {
+    font: 300 4vw "Roboto";
+  }
+  .orderSummaryTotal {
+    padding: 5vw 0;
+    font: 300 4vw "Roboto";
+  }
+  .orderSummary > button {
+    padding: 4vw;
+    margin: 4vw auto;
+    font: 400 5vw "Roboto";
+  }
+  .MuiTypography-body1 {
+    font: 400 0.8rem "Roboto" !important;
+  }
+
+  .confirmShippingArea,
+  .confirmCartItems {
+    padding: 2vmax !important;
+  }
+}

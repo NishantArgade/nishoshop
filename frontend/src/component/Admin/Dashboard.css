@@ -1,0 +1,100 @@
+.dashboard {
+  width: 100vw;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.dashboardContainer {
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.13);
+  padding-top: 6vmax;
+}
+.dashboardContainer > h1 {
+  color: rgba(0, 0, 0, 0.733);
+  font: 300 2rem "Roboto" !important;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.dashboardSummary {
+  margin: 2rem 0;
+}
+
+.dashboardSummary > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.dashboardSummary > div > p {
+  background-color: rgba(70, 117, 218, 0.932);
+  color: white;
+  width: 100%;
+  margin: 1rem;
+  padding: 2rem 0;
+  text-align: center;
+  font: 300 1.3rem "Roboto";
+}
+.dashboardSummaryBox2 > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font: 300 1.7rem "Roboto";
+  text-align: center;
+  background-color: rgb(255, 233, 174);
+  text-decoration: none;
+  padding: 1.5rem;
+  border-radius: 100%;
+  margin: 2rem;
+  height: 10vmax;
+  width: 10vmax;
+}
+.dashboardSummaryBox2 > a:first-child {
+  background-color: rgb(255, 110, 110);
+  color: rgb(255, 255, 255);
+}
+.dashboardSummaryBox2 > a:last-child {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+}
+.lineChart {
+  width: 80%;
+  margin: auto;
+}
+.doughnutChart {
+  width: 30vmax;
+  margin: auto;
+  padding: 3vmax 0;
+}
+
+@media screen and (max-width: 600px) {
+  .dashboardSummaryBox2 > a {
+    font: 300 1.4rem "Roboto";
+  }
+  .dashboard {
+    display: block;
+    overflow: hidden;
+  }
+  .productReviewForm {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .dashboardContainer {
+    border-left: none;
+  }
+  .dashboardSummary > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar a,.MuiTypography-body1 {
+    font: 200 1.2rem "Roboto"!important;
+  }
+  .dashboardContainer > h1{
+    font: 200 1.5rem "Roboto"!important;
+
+  }
+}

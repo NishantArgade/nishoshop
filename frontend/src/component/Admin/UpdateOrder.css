@@ -1,0 +1,99 @@
+.updateOrderPage {
+  min-height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+.updateOrderPage > div:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+.updateOrderPage {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  background-color: white;
+}
+.updateOrderForm {
+  margin: 5vmax 0;
+  padding: 3vmax;
+  background-color: white;
+}
+.updateOrderForm>h1{
+  font:500  2.2vmax  "Roboto";
+  text-align: center;
+}
+.confirmshippingArea {
+  padding-top: 7vmax;
+  padding-left: 1vmax;
+}
+.updateOrderForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.updateOrderForm > div > select {
+  padding: 1vmax 4vmax;
+  margin: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+}
+
+.updateOrderForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+#updateProductBtn {
+  border: none;
+  outline: none;
+  padding: 0.8vmax 1vmax;
+  margin: 1vmax;
+  background-color: tomato;
+  color: white!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+  width: auto;
+}
+#updateProductBtn:hover{
+  background-color: rgb(236, 87, 61);
+}
+@media screen and (max-width: 600px) {
+  .updateOrderPage {
+    grid-template-columns: 1fr;
+    height: unset;
+    border-left: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+  }
+  .updateOrderPage > div:last-child {
+    border-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+  }
+  .updateOrderForm {
+    padding: 5vmax;
+  }
+
+  .updateOrderForm>h1{
+  font:500  4vmax  "Roboto";
+}
+  .updateOrderForm > div > select {
+    padding: 2.5vmax 5vmax;
+    font: 300 2.2vmax "Roboto";
+  }
+
+  .updateOrderForm > div > svg {
+    font-size: 2.8vmax;
+  }
+  #updateProductBtn {
+    width: auto;
+    padding:1.2vmax 2.2vmax;
+    font:400 2.4vmax "Roboto";
+  }
+}

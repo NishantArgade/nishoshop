@@ -1,0 +1,62 @@
+.cartItemCardBox{
+	display: flex;
+	align-items: flex-start;
+	box-sizing: border-box;
+	padding: 1vmax 4.5vmax;
+	height: auto;
+}
+.cartItemCardBox>img{
+	width: 5vmax;
+	max-height:6vmax;
+
+}
+.cartItemCardBox>div{
+	display: flex;
+	flex-direction: column;
+	margin: 0.3vmax 1vmax;
+}
+.cartItemCardBox>div>a{
+	font: 300 0.9vmax cursive;
+	color: rgba(24,24,24,0.815);
+	text-decoration: none;
+}
+.cartItemCardBox>div>span{
+	font: 300 0.9vmax "Roboto";
+	color:rgba(24,24,24,0.815)
+}
+.cartItemCardBox>div>p{
+	color: tomato;
+	font:100 0.8vmax "Roboto";
+	cursor: pointer;
+}
+.cartItemCardBox>div{
+		width: 5vmax;
+		height: auto;
+		background-size: cover;
+	}
+@media screen and (max-width:600px) {
+	.cartItemCardBox{
+		padding: 2vmax;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-between;
+
+	}
+
+	.cartItemCardBox>img{
+		width: 10vmax;
+		height:10vmax;
+	}
+	.cartItemCardBox>div{
+		margin: 1vmax 2vmax;
+	}
+	.cartItemCardBox>div>a{
+		font:300 1.8vmax "Roboto";
+	}
+	.cartItemCardBox>div>span{
+		font: 300 1.9vmax "Roboto";
+	}
+	.cartItemCardBox>div>p{
+		font:100 1.8vmax "Roboto";
+	}
+}

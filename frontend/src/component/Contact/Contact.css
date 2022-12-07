@@ -1,0 +1,104 @@
+.contactContainer {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ContactHeading {
+  font: 600 2vmax "Roboto";
+  padding: 2vmax 0;
+  color: rgba(255, 255, 255, 0.993);
+}
+.contactForm {
+  width: 35vmax;
+  height: auto;
+  box-sizing: border-box;
+  padding: 2vmax;
+  margin: 2vmax auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.562)),
+    url("../../images/4839.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.342);
+}
+
+.contactForm > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1vmax 0;
+  width: 100%;
+}
+.contactForm > div > input {
+  width: 100%;
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  border: none;
+  outline: none;
+  font: 400 1vmax cursive;
+  border-radius: 4px;
+}
+.textArea {
+  height: 8vmax;
+  width: 100%;
+}
+.textArea > svg {
+  align-self: flex-start;
+}
+.textArea > textarea {
+  height: 8vmax;
+  width: 100%;
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  border: none;
+  outline: none;
+  font: 400 1vmax cursive;
+  border-radius: 4px;
+}
+.contactForm > div > svg {
+  position: relative;
+  font-size: 2vmax !important;
+  transform: translateX(2.8vmax);
+}
+#sendBtn {
+  background-color: tomato;
+  color: white;
+  padding: 1vmax 1vmax;
+  margin-top: 3vmax;
+  border: none;
+  outline: none;
+  font: 400 1vmax cursive;
+}
+#sendBtn:hover {
+  background-color: rgb(185, 41, 15);
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .contactForm {
+    width: 40vmax;
+  }
+  .contactForm > div > input,
+  .textArea > textarea {
+    font: 400 2vmax "Roboto";
+    margin:1.4vmax 0;
+  }
+  .contactForm > div > svg {
+    font-size: 2.5vmax !important;
+    transform: translateX(3.2vmax);
+  }
+
+  .ContactHeading {
+    font: 600 3vmax "Roboto";
+  }
+  #sendBtn {
+    padding: 2vmax 5vmax;
+    font: 400 2vmax "Roboto";
+    margin:3vmax 0;
+  }
+}
