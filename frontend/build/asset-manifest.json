@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c9df81e.css",
+    "main.js": "/static/js/main.f1c80d0d.js",
+    "static/media/clark-street-mercantile-qnKhZJPKFD8-unsplash.png": "/static/media/clark-street-mercantile-qnKhZJPKFD8-unsplash.f3a84af5d91e3e302515.png",
+    "static/media/4839.jpg": "/static/media/4839.1c7b2ef002f8e6f5094c.jpg",
+    "static/media/4.jpg": "/static/media/4.e22a859d7314e8832385.jpg",
+    "static/media/3.jpg": "/static/media/3.bf717d51cbb1c7946795.jpg",
+    "static/media/2.jpg": "/static/media/2.83b07e66efb3d1e02f4c.jpg",
+    "static/media/1.jpg": "/static/media/1.6657bb27f642f84c306a.jpg",
+    "static/media/appStore.png": "/static/media/appStore.efab19881f4660ab09fc.png",
+    "static/media/logo.png": "/static/media/logo.3b1b31149082cb8c2b8d.png",
+    "static/media/profile.png": "/static/media/profile.697fdcd21f6d157b9073.png",
+    "index.html": "/index.html",
+    "main.4c9df81e.css.map": "/static/css/main.4c9df81e.css.map",
+    "main.f1c80d0d.js.map": "/static/js/main.f1c80d0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c9df81e.css",
+    "static/js/main.f1c80d0d.js"
+  ]
+}
